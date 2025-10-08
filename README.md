@@ -10,7 +10,7 @@ Cada pasta (ou arquivo) representa um problema com seu respectivo código e, qua
 
 ## 💻 Linguagem Utilizada
 
-* C
+* C (Padrão C99)
 
 ## 📘 Objetivo
 
