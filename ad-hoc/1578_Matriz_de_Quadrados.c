@@ -2,24 +2,32 @@
 
     int main(){
 
-        int n;
+        int n, m, cont = 4;
 
         scanf("%d", &n);
 
-        int vet[n];
-        
-        scanf("%d", &vet[0]);
+        for(int idx = 0; idx < n; idx++){
+            scanf("%d", &m);
+            int matriz[m][m];
+            
+            for(int i = 0; i < m; i++){
+                for(int j = 0; j < m; j++){
+                    scanf("%d", &matriz[i][j]);
+                }
+            }
 
-        int menor = vet[0], pos = 0;
 
-        for(int i = 1; i < n; i++){
-            scanf("%d", &vet[i]);
-            if(menor > vet[i]){
-                menor = vet[i];
-                pos = i;
+            printf("Quadrado da matriz #%d\n", cont);
+            cont++;
+
+            for(int i = 0; i < m; i++){
+                for(int j = 0; j < m; j++){
+                    printf(" %d ", matriz[i][j]*matriz[i][j]);
+                }
+                printf("\n");
             }
         }
 
-        printf("Menor valor: %d\n", menor);
-        printf("Posicao: %d\n", pos);
-    }
+        }
+
+    
