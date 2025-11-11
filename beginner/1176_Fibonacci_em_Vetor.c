@@ -2,7 +2,7 @@
 
     int main(){
 
-        unsigned long long int v;
+        unsigned long long int v; 
         int temp;
         
         scanf("%lld", &v);

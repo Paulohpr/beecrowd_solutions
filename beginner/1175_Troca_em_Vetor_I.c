@@ -2,7 +2,7 @@
     
     int main(){
 
-        int n[20];
+        int n[20]; 
         int vet, temp = 0;
 
         vet = 19;
@@ -20,6 +20,5 @@
         }
 
         for(int i = 0; i < 20; i++)
-            printf("N[%d] = %d\n", i, n[i]);
-        
+            printf("N[%d] = %d\n", i, n[i]);   
     }

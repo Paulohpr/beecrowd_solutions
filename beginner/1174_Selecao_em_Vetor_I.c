@@ -2,7 +2,7 @@
 
     int main(){
 
-        float a[100];
+        float a[100]; 
 
         for(int i = 0; i < 100; i++)
             scanf("%f", &a[i]);
